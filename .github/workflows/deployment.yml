@@ -20,4 +20,4 @@ jobs:
           surge token d4790fc089b35d4513a564b660a6ca43
 
           # Desplegar en Surge.sh
-          surge --project ./ --domain <SURGE_SUBDOMAIN>.surge.sh # Reemplazar <SURGE_SUBDOMAIN> con un subdominio único para cada estudiante
+          surge --project ./ --domain ci-cd-practice.surge.sh
