@@ -15,4 +15,4 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy to Surge
-        run: surge --token d4790fc089b35d4513a564b660a6ca43 --project ./ --domain your-domain.surge.sh
+        run: surge --token d4790fc089b35d4513a564b660a6ca43 --project ./ --domain ci-cd-practice.surge.sh
